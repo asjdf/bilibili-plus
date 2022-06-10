@@ -86,7 +86,7 @@ if (magicJS.read(blackKey)) {
           // 545 首页追番tab，442 开始为概念版id 适配港澳台代理模式
           const tabList = new Set([39, 40, 41, 545, 151, 442, 99, 100, 101, 554, 556]);
           // 尝试使用tab name直观修改
-          const tabNameList = new Set(["直播", "推荐", "热门", "追番", "影视"]);
+          const tabNameList = new Set(["直播", "推荐", "热门", "追番", "影视", "校园"]);
           // 107 概念版游戏中心，获取修改为Story模式
           const topList = new Set([176, 222, 107]);
           // 102 开始为概念版id
